@@ -1,9 +1,9 @@
 from Algoritmo import quicksort
 import random, time
 
-tamArr = 10000
+tamArr = 998
 arreglo = random.sample(range(tamArr), tamArr)
-
+arreglo.sort(reverse=True)
 # print(arreglo)
 
 tiempo1 = time.time()

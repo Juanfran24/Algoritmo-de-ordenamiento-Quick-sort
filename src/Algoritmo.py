@@ -10,9 +10,9 @@ def quicksort(arreglo, izquierda, derecha):
 
 
 def particion(arreglo, izquierda, derecha):
-    # indPivote = encuentraPivote(arreglo,izquierda, derecha)
-    # pivote = arreglo[indPivote]
-    pivote = arreglo[izquierda]
+    indPivote = encuentraPivote(arreglo,izquierda, derecha)
+    pivote = arreglo[indPivote]
+    # pivote = arreglo[izquierda]
 
     while True:
         """
